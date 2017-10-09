@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginRight="@dimen/activity_vertical_margin"
+    android:layout_marginLeft="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:id="@+id/tvCategoryname"
+        android:layout_width="250dp"
+        android:layout_height="25dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="8dp"
+        android:text="Category Name"
+        />
+
+    <TextView
+        android:id="@+id/tvAmount"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="Amount"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_alignTop="@+id/tvCategoryname"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/tvDesc" />
+
+    <TextView
+        android:id="@+id/tvDesc"
+        android:layout_width="250dp"
+        android:layout_height="18dp"
+        android:layout_alignStart="@+id/tvCategoryname"
+        android:layout_below="@+id/tvCategoryname"
+        android:layout_marginTop="5dp"
+        android:text="Short Desc"
+        android:textAlignment="textStart" />
+
+</RelativeLayout>

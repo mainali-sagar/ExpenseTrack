@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+
+    <EditText
+        android:id="@+id/reminderTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Eg. Pay Utility Bills" />
+
+    <EditText
+        android:id="@+id/reminderDate"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/reminderTitle"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:inputType="date"
+        android:hint="dd /mm / yy"/>
+
+    <EditText
+        android:id="@+id/reminderTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/reminderDate"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@+id/reminderDate"
+        android:ems="10"
+        android:inputType="time"
+        android:hint="HH:MM"/>
+
+    <EditText
+        android:id="@+id/reminderDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/reminderDate"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:hint="Description"/>
+
+</RelativeLayout>

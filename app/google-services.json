@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "745640538658",
+    "firebase_url": "https://expensetrack-12b10.firebaseio.com",
+    "project_id": "expensetrack-12b10",
+    "storage_bucket": "expensetrack-12b10.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745640538658:android:139a1d51b5fc1fec",
+        "android_client_info": {
+          "package_name": "com.mainali.expensetrack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "745640538658-6o178ojromda7bahn5svrcak51mem80k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mainali.expensetrack",
+            "certificate_hash": "4a0035ba76413daf938f6ddfed508e063fcc5623"
+          }
+        },
+        {
+          "client_id": "745640538658-g5v4onfrc08jt8u3b7l30gj4s2rj6qbv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwH0JR2cQoCTTusIJg7GZcYXaibK-7oyk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "745640538658-g5v4onfrc08jt8u3b7l30gj4s2rj6qbv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
